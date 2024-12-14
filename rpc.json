@@ -1,0 +1,109 @@
+{
+  "ethereum": {
+    "rpc": [
+      "https://rpc.ankr.com/eth"
+    ],
+    "explorer": "https://etherscan.io/tx/",
+    "token": "ETH",
+    "eip1559": true,
+    "chain_id": 1
+  },
+  "arbitrum": {
+    "rpc": [
+      "https://rpc.ankr.com/arbitrum"
+    ],
+    "explorer": "https://arbiscan.io/tx/",
+    "token": "ETH",
+    "eip1559": true,
+    "chain_id": 42161
+  },
+  "optimism": {
+    "rpc": [
+      "https://rpc.ankr.com/optimism"
+    ],
+    "explorer": "https://optimistic.etherscan.io/tx/",
+    "token": "ETH",
+    "eip1559": true,
+    "chain_id": 10
+  },
+  "polygon_zkevm": {
+    "rpc": [
+      "https://rpc.ankr.com/polygon_zkevm"
+    ],
+    "explorer": "https://zkevm.polygonscan.com/tx/",
+    "token": "ETH",
+    "eip1559": false,
+    "chain_id": 1101
+  },
+  "zksync": {
+    "rpc": [
+      "https://rpc.ankr.com/zksync_era"
+    ],
+    "explorer": "https://explorer.zksync.io/tx/",
+    "token": "ETH",
+    "eip1559": true,
+    "chain_id": 324
+  },
+  "base": {
+    "rpc": [
+      "https://rpc.ankr.com/base",
+      "https://base.llamarpc.com"
+    ],
+    "explorer": "https://basescan.org/tx/",
+    "token": "ETH",
+    "eip1559": true,
+    "chain_id": 8453
+  },
+  "linea": {
+    "rpc": [
+      "https://linea.drpc.org",
+      "https://1rpc.io/linea",
+      "https://rpc.linea.build"
+    ],
+    "explorer": "https://lineascan.build/tx/",
+    "token": "ETH",
+    "eip1559": false,
+    "chain_id": 59144
+  },
+  "scroll": {
+    "rpc": [
+      "https://rpc.scroll.io",
+      "https://scroll.blockpi.network/v1/rpc/public"
+    ],
+    "explorer": "https://scrollscan.com/tx/",
+    "token": "ETH",
+    "eip1559": false,
+    "chain_id": 534352
+  },
+  "goerli": {
+    "rpc": [
+      "https://rpc.ankr.com/eth_goerli",
+      "https://ethereum-goerli.publicnode.com",
+      "https://goerli.blockpi.network/v1/rpc/public"
+    ],
+    "explorer": "https://goerli.etherscan.io/tx/",
+    "token": "ETH",
+    "eip1559": false,
+    "chain_id": 5
+  },
+  "opbnb": {
+    "rpc": [
+      "https://opbnb.publicnode.com",
+      "https://1rpc.io/opbnb",
+      "https://opbnb-mainnet-rpc.bnbchain.org"
+    ],
+    "explorer": "https://opbnbscan.com/tx/",
+    "token": "BNB",
+    "eip1559": false,
+    "chain_id": 204
+  },
+  "ronin": {
+    "rpc": [
+      "https://ronin.drpc.org"
+    ],
+    "explorer": "https://app.roninchain.com/tx/",
+    "token": "RON",
+    "eip1559": true,
+    "chain_id": 2020
+  }
+}
